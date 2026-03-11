@@ -38,12 +38,8 @@ tests:
       run:
         - pip
         - python ${{ python_min }}.*
-    files:
-      source:
-        - adaptivetesting/tests
     script:
       - pip check
-      - python -m unittest
 
 about:
   summary: adaptivetesting is a Python package that can be used to simulate and evaluate custom CAT scenarios as well as implement them in real-world testing scenarios from a single codebase

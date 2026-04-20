@@ -38,6 +38,8 @@ tests:
       run:
         - pip
         - python ${{ python_min }}.*
+        - setuptools
+        - cython
     script:
       - pip check
 
